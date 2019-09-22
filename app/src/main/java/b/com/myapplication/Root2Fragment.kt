@@ -1,7 +1,5 @@
 package b.com.myapplication
 
-import android.content.Context
-import android.net.Uri
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.LayoutInflater
@@ -20,7 +18,7 @@ class Root2Fragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        var v =  inflater.inflate(R.layout.fragment_root2, container, false)
+        var v = inflater.inflate(R.layout.fragment_root2, container, false)
         val manager = childFragmentManager
         val transaction = manager.beginTransaction()
         transaction.add(R.id.root2_frame, SecondFragment())

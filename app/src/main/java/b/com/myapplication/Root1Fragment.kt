@@ -1,14 +1,10 @@
 package b.com.myapplication
 
-import android.content.Context
-import android.net.Uri
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-
-
 
 
 class Root1Fragment : Fragment() {
@@ -23,7 +19,7 @@ class Root1Fragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        var v =  inflater.inflate(R.layout.fragment_root1, container, false)
+        var v = inflater.inflate(R.layout.fragment_root1, container, false)
         val manager = childFragmentManager
         val transaction = manager.beginTransaction()
         transaction.add(R.id.root_frame, FirstFragment())

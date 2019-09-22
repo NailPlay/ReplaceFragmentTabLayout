@@ -1,14 +1,9 @@
 package b.com.myapplication
 
 import android.os.Bundle
-import android.support.design.widget.BottomNavigationView
 import android.support.design.widget.TabLayout
-import android.support.v4.app.FragmentManager
-import android.support.v4.view.PagerAdapter
 import android.support.v4.view.ViewPager
 import android.support.v7.app.AppCompatActivity
-import android.widget.Toast
-import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,7 +17,6 @@ class MainActivity : AppCompatActivity() {
         // Передаём ViewPager в TabLayout
         val tabLayout = findViewById<TabLayout>(R.id.sliding_tabs)
         tabLayout.setupWithViewPager(viewPager)
-
 
 
     }
