@@ -15,7 +15,8 @@ class DetailsFragment : Fragment() {
 
     }
 
-    // step 1
+    // step 1Ж:wq
+    Ω
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -25,6 +26,7 @@ class DetailsFragment : Fragment() {
         var v = inflater.inflate(R.layout.fragment_details, container, false)
         v.back.setOnClickListener({
             fragmentManager!!.popBackStack()
+
         })
         return v
     }
