@@ -15,6 +15,8 @@ class DetailsFragment : Fragment() {
 
     }
 
+    // step 1
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
