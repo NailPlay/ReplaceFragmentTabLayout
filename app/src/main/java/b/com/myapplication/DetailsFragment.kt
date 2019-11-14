@@ -15,8 +15,10 @@ class DetailsFragment : Fragment() {
 
     }
 
+
+
     // step 1Ж:wq
-    Ω
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
