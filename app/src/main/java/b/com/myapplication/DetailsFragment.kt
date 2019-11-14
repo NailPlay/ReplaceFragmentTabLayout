@@ -28,6 +28,8 @@ class DetailsFragment : Fragment() {
     // bug 2
     // bug 3
 
+    // bug 5
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
