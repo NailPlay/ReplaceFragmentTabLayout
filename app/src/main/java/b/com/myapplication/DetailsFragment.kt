@@ -32,9 +32,11 @@ class DetailsFragment : Fragment() {
     // bug 5
     // bug 5
     //
+//
     //
 
 
+    //
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
