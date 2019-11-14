@@ -32,6 +32,7 @@ class DetailsFragment : Fragment() {
     // bug 5
     // bug 5
     //
+//
     //
 
 
