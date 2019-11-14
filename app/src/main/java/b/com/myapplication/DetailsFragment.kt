@@ -15,7 +15,7 @@ class DetailsFragment : Fragment() {
 
     }
 
-
+    // bug 2
 
     // step 1Ж:wq
 
