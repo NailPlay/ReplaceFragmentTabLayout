@@ -29,6 +29,7 @@ class DetailsFragment : Fragment() {
     // bug 3
 
     // bug 5
+    // bug 5
 
 
     override fun onCreateView(
