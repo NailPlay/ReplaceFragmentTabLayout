@@ -36,7 +36,8 @@ class DetailsFragment : Fragment() {
     //
 
 
-    //
+    // df
+    // dsf
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
