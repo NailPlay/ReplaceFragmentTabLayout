@@ -28,6 +28,7 @@ class SecondFragment : Fragment() {
             transaction.addToBackStack(null);
             transaction.commit()
         })
+        // bug 1
         return v
     }
 
